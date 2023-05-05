@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>About Us</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Get all "navbar-burger" elements
+            const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+            // Add a click event on each of them
+            $navbarBurgers.forEach(el => {
+                el.addEventListener('click', () => {
+
+                    // Get the target from the "data-target" attribute
+                    const target = el.dataset.target;
+                    const $target = document.getElementById(target);
+
+                    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                    el.classList.toggle('is-active');
+                    $target.classList.toggle('is-active');
+
+                });
+            });
+
+        });
+    </script>
+    <style>
+        .demo-wrap {
+            position: relative;
+        }
+
+        .demo-wrap:before {
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.6;
+            background-image: url(img/9.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 0;
+            background-size: cover;
+        }
+
+        .demo-content {
+            position: relative;
+        }
+
+
+        #set {
+            color: #050748;
+        }
+
+        .text {
+            color: #e91e63;
+        }
+
+        .mb30 {
+            color: #050748;
+            font: 45px Poppins, sans-serif;
+            margin: 0px 0px 30px;
+            text-align: center;
+        }
+
+        #text-second {
+            color: #e91e63;
+            font: 45px Poppins, sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar has-background-white-ter" role="navigation" aria-label="main navigation">
+
+        <div class="navbar-brand">
+            <a class="navbar-item" href="">
+                <img src="img/virtutek logo.png" class="" style="max-height: 100px;">
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+
+
+            <div class="navbar-end">
+                <div class="navbar-item has-text-weight-bold">
+                  
+                    <a class="navbar-item" href="">
+                        COMAPANY
+                    </a>
+                    <a class="navbar-item" href="">
+                        BLOCKCHAIN
+                    </a>
+
+                    <a class="navbar-item" href="">
+                        OUR SERVICES
+                    </a>
+                    <a class="navbar-item" href="">
+                        COANTACT US
+                    </a>
+                    <button class="button is-rounded  is-link is-focused">Request A Quote</button>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div class="section">
+        <div class="container">
+
+            <div class="demo-wrap">
+                <div class="demo-content">
+                    <br><br><br>
+                    <h1 class="has-text-centered "> <a class="has-text-dark" href=""> ABOUT US</a></h1>
+                    <br>
+                    <h1 class="is-size-4 has-text-centered has-text-weight-bold" id="set">WE FIND DIGITAL SOLUTIONS TO
+                        <span class="text">CHALLENGING PROBLEMS</span>
+                    </h1>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <img src="img/company-about .png" alt="">
+                </div>
+                <div class="column">
+                    <h1 class="is-size-3 has-text-centered has-text-weight-bold" id="set">We Pave the Way for<br>
+                        <div class="text">
+                            Your Success</div>
+                    </h1>
+                    <p class="is-size-5"><strong>Blockchain technology</strong> has witnessed an unprecedented surge in
+                        demand after its
+                        introduction as a
+                        shared and secured ledger for Bitcoin by Satoshi Nakamoto. Currently it’s sweeping the business
+                        domains across the globe due to its revolutionary nature of simplifying processes while making
+                        them transparent, immutable and secure.</p><br>
+                    <p class="is-size-5">Business sectors such as Business administration, Business order tracking,
+                        Supply chain, Banking
+                        and Finance, E-learning, Healthcare, Online shopping portals, Insurance, Travel, Music,
+                        Renewable energy, Contract validation, Real Estate, Government Services and many other
+                        day-to-day transactions are rapidly turning towards Blockchain as a solution for problems that
+                        persisted for long with little feasible solutions..</p><br>
+                    <p class="is-size-5">Virtutek IT Solutions Private Limited is one of the pioneers of providing
+                        Blockchain services and
+                        solutions. We understand the ever-growing demands for decentralized ecosystems that are driving
+                        today’s enterprises. Hence, we offer solutions that perfectly match the need for innovation and
+                        support for sustained growth across industries.</p>
+                </div>
+            </div>
+            <p class="is-size-5">As a leading IT Solution provider and<strong> Blockchain Development Company in India,
+                    UAE.</strong> we offer cutting-edge
+                developments in distributed ledger technologies, Smart contracts, Hyperledger, Exchanges, Creation and
+                Managing Digital Assets, Web Design and Development, Software Development and Mobile App Development
+                among other IT solutions.</p> <br>
+            <p class="is-size-5">We operate with an adept team of dedicated developers and designers who are experienced
+                in Blockchain,
+                Web, Software and Mobile Application. As a well coordinated team, we figure out simplified solutions for
+                the complex challenges of business and society today.</p>
+
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="card has-text-centered">
+                        <div class="card-image">
+                            <figure class="has-text-centered">
+                                <img src="img/card-1.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <h1 class="is-size-4 "><strong>85% Business</strong>
+                            <p>Through Customer Referrals</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card has-text-centered">
+                        <div class="card-image">
+                            <figure class="has-text-centered">
+                                <img src="img/card-2.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <h1 class="is-size-4 "><strong>95% Client</strong>
+                            <p>Retention Rate</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card has-text-centered">
+                        <div class="card-image">
+                            <figure class="has-text-centered">
+                                <img src="img/card-3.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <h1 class="is-size-4 "><strong>88% Retention</strong>
+                            <p>Rate of Tech Leads</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card has-text-centered">
+                        <div class="card-image">
+                            <figure class="has-text-centered">
+                                <img src="img/card-4.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <h1 class="is-size-4 "><strong>24X7</strong>
+                            <p>Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="text" style="font-size: 26px;">VISION</div><br>
+                    <h1 class="has-text-weight-bold is-size-2" id="set">Our Vision</h1><br>
+                    <p class="is-size-5">We envisage enhancing convenience, competitiveness, efficiency and
+                        cost-effectiveness of
+                        <br>business operations and service delivery mechanisms by exploiting Futuristic Technology as
+                        a<br> Solution.
+                    </p>
+                </div>
+                <div class="column">
+                    <img src="img/p6.jpg" alt="">
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <div class="column">
+                        <img src="img/p7.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="column">
+                    <div class="text" style="font-size: 26px;">MISSION</div><br>
+                    <h1 class="has-text-weight-bold is-size-2" id="set">Our Mission</h1><br>
+                    <p class="is-size-5">Being one of the<strong> best IT companies in India,</strong> we seek to excel
+                        in providing the
+                        best innovative solutions to enterprise grade challenges within competitive price range while
+                        maintaining long term association through amicale support policies.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+            <div class="has-text-weight-bold is-size-2 has-text-centered" id="set">Our <span class="text">Team</span></div>
+         <br><br>   <div class="columns">
+                <div class="column">
+                    <div class="card has-text-centered">
+                        <div class="card-image">
+                            <figure class="has-text-centered">
+                                <img src="img/01.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <h1 class="is-size-4 has-text-link has-text-weight-bold">Saumik Mehta</h1>
+                            <p class="has-text-black">Founder</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card has-text-centered">
+                        <div class="card-image">
+                            <figure class="has-text-centered">
+                                <img src="img/02.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <h1 class="is-size-4 has-text-link ">Ruchir Parikh</h1>
+                            <p class="has-text-black">Retention Rate</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card has-text-centered">
+                        <div class="card-image">
+                            <figure class="has-text-centered">
+                                <img src="img/03.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <h1 class="is-size-4 has-text-link ">Mitesh Jain</h1>
+
+                            <p>Co Founder</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div> 
+    <div class="section">
+        <div class="container">
+            <h1 class="mb30 is-size-1 has-text-weight-bold">Why <span class="has-text-weight-bold"
+                    id="text-second">Choose us?</span></h1>
+            <p class="has-text-centered is-size-4 has-text-black">We measure success by the rate of satisfaction of our
+                partners</p><br>
+
+            <div class="columns">
+                <div class="column">
+                    <div class="icon-text">
+                        <a class="button is-large is-primary is-outlined " href="index.html">
+                            <div class="icon is-size-2">
+                                <i class="fa-sharp fa-solid fa-people-group fa-beat"></i>
+                            </div><br>
+                            <div class="is-family-code">Expert Team</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="icon-text">
+                        <a class="button is-large is-danger  is-outlined " href="index.html">
+                            <div class="icon is-size-2">
+                                <i class="fa-sharp fa-solid fa-rocket fa-shake"></i>
+
+                            </div><br>
+                            <div class="is-family-code">On Time Delivery</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="icon-text">
+                        <a class="button is-large is-link  is-outlined " href="index.html">
+                            <div class="icon is-size-2">
+                                <i class="fa-solid fa-briefcase fa-beat-fade"></i>
+
+                            </div><br>
+                            <div class="is-family-code">Cost Effective</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="icon-text">
+                        <a class="button is-large is-info  is-outlined " href="index.html">
+                            <div class="icon is-size-2">
+
+                                <i class="fa-sharp fa-solid fa-question fa-bounce"></i>
+
+                            </div><br>
+                            <div class="is-family-code"> 24X7 Support</div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="section has-background-danger-light">
+        <div class="columns">
+            <div class="column">
+                <a class="navbar-item" href="index.html">
+                    <img src="img/virtutek logo.png" class="" style="max-height: 80px;">
+                </a><br>
+
+                <p class="has-text-black is-size-5">Virtutek IT Solutions is one of the pioneers in providing Blockchain
+                    services and solutions. We
+                    understand the ever-growing demands for decentralized ecosystems that are driving today’s
+                    enterprises. Hence, we offer solutions that perfectly match the need for innovation and support for
+                    sustained growth across industries.</p>
+            </div>
+            <div class="column">
+                <h1 class=" has-text-weight-bold has-text-dark is-size-4">Contact Us</h1><br>
+                <i class="fa-sharp fa-solid fa-envelope "></i>
+                <h1 class="is-size-5"> <strong> Email:</strong>info@virtutek.in</h1> <br>
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <h1 class="is-size-5"> <strong>Address</strong>Ahmedabad, India | Dubai, UAE </h1>
+            </div>
+            <div class="column">
+                <h1 class="has-text-weight-bold is-size-4">Company</h1><br>
+                <ul>
+                    <li> <a href="About us.html" class="has-text-dark is-size-5">About Us</a></li>
+                    <li> <a href="" class="has-text-dark is-size-5">Career</a></li>
+                    <li> <a href="" class="has-text-dark is-size-5">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h1 class=" has-text-weight-bold has-text-dark is-size-4">Support</h1><br>
+                <ul>
+                    <li> <a href="" class="has-text-dark is-size-5">Privacy policy</a></li>
+                    <li> <a href="" class="has-text-dark is-size-5">Terms And Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="column has-text-centered has-background-white">
+        <a href="https://wa.link/k28dy2" class="button is-dark">
+            <li class="p-1 fa-brands fa-whatsapp" aria-hidden="true"></li>
+        </a>
+        <a class="button is-dark" href="https://www.facebook.com/krishnaweddingplanner">
+            <li class="p-1 fa-brands fa-facebook-square" aria-hidden="true"></li>
+        </a>
+        <a href="https://www.instagram.com/krishna_eventss/" class="button is-dark">
+            <li class="p-1 fa-brands fa-instagram" aria-hidden="true"></li>
+        </a>
+        <a href="https://www.youtube.com/@WeddingConceptsKrishnaEvents/featured" class="button is-dark ">
+            <li class="p-1 fa-brands fa-youtube" aria-hidden="true"></li>
+        </a><br> <br>
+        <h1 class="has-text-black is-size-4">Copyright © 2021-2022<a class="has-text-primary" href="index.html">Virtutek
+                IT Solutions
+            </a> All Rights Reserved.</h1>
+
+    </div>
+</body>
+
+</html>
